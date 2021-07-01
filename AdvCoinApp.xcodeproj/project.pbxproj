@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A464AED3268DC4DB004C8B3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A464AED2268DC4DB004C8B3C /* AppDelegate.swift */; };
+		A464AED5268DC4DB004C8B3C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A464AED4268DC4DB004C8B3C /* SceneDelegate.swift */; };
+		A464AED7268DC4DB004C8B3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A464AED6268DC4DB004C8B3C /* ViewController.swift */; };
+		A464AEDA268DC4DB004C8B3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A464AED8268DC4DB004C8B3C /* Main.storyboard */; };
+		A464AEDC268DC4DC004C8B3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A464AEDB268DC4DC004C8B3C /* Assets.xcassets */; };
+		A464AEDF268DC4DC004C8B3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A464AEDD268DC4DC004C8B3C /* LaunchScreen.storyboard */; };
+		A464AEEA268DC4DC004C8B3C /* AdvCoinAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A464AEE9268DC4DC004C8B3C /* AdvCoinAppTests.swift */; };
+		A464AEF5268DC4DC004C8B3C /* AdvCoinAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A464AEF4268DC4DC004C8B3C /* AdvCoinAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A464AEE6268DC4DC004C8B3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A464AEC7268DC4DB004C8B3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A464AECE268DC4DB004C8B3C;
+			remoteInfo = AdvCoinApp;
+		};
+		A464AEF1268DC4DC004C8B3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A464AEC7268DC4DB004C8B3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A464AECE268DC4DB004C8B3C;
+			remoteInfo = AdvCoinApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A464AECF268DC4DB004C8B3C /* AdvCoinApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdvCoinApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A464AED2268DC4DB004C8B3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A464AED4268DC4DB004C8B3C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A464AED6268DC4DB004C8B3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A464AED9268DC4DB004C8B3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A464AEDB268DC4DC004C8B3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A464AEDE268DC4DC004C8B3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A464AEE0268DC4DC004C8B3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A464AEE5268DC4DC004C8B3C /* AdvCoinAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdvCoinAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A464AEE9268DC4DC004C8B3C /* AdvCoinAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvCoinAppTests.swift; sourceTree = "<group>"; };
+		A464AEEB268DC4DC004C8B3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A464AEF0268DC4DC004C8B3C /* AdvCoinAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdvCoinAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A464AEF4268DC4DC004C8B3C /* AdvCoinAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvCoinAppUITests.swift; sourceTree = "<group>"; };
+		A464AEF6268DC4DC004C8B3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A464AECC268DC4DB004C8B3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A464AEE2268DC4DC004C8B3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A464AEED268DC4DC004C8B3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A464AEC6268DC4DB004C8B3C = {
+			isa = PBXGroup;
+			children = (
+				A464AED1268DC4DB004C8B3C /* AdvCoinApp */,
+				A464AEE8268DC4DC004C8B3C /* AdvCoinAppTests */,
+				A464AEF3268DC4DC004C8B3C /* AdvCoinAppUITests */,
+				A464AED0268DC4DB004C8B3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A464AED0268DC4DB004C8B3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A464AECF268DC4DB004C8B3C /* AdvCoinApp.app */,
+				A464AEE5268DC4DC004C8B3C /* AdvCoinAppTests.xctest */,
+				A464AEF0268DC4DC004C8B3C /* AdvCoinAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A464AED1268DC4DB004C8B3C /* AdvCoinApp */ = {
+			isa = PBXGroup;
+			children = (
+				A464AED2268DC4DB004C8B3C /* AppDelegate.swift */,
+				A464AED4268DC4DB004C8B3C /* SceneDelegate.swift */,
+				A464AED6268DC4DB004C8B3C /* ViewController.swift */,
+				A464AED8268DC4DB004C8B3C /* Main.storyboard */,
+				A464AEDB268DC4DC004C8B3C /* Assets.xcassets */,
+				A464AEDD268DC4DC004C8B3C /* LaunchScreen.storyboard */,
+				A464AEE0268DC4DC004C8B3C /* Info.plist */,
+			);
+			path = AdvCoinApp;
+			sourceTree = "<group>";
+		};
+		A464AEE8268DC4DC004C8B3C /* AdvCoinAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				A464AEE9268DC4DC004C8B3C /* AdvCoinAppTests.swift */,
+				A464AEEB268DC4DC004C8B3C /* Info.plist */,
+			);
+			path = AdvCoinAppTests;
+			sourceTree = "<group>";
+		};
+		A464AEF3268DC4DC004C8B3C /* AdvCoinAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A464AEF4268DC4DC004C8B3C /* AdvCoinAppUITests.swift */,
+				A464AEF6268DC4DC004C8B3C /* Info.plist */,
+			);
+			path = AdvCoinAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A464AECE268DC4DB004C8B3C /* AdvCoinApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A464AEF9268DC4DC004C8B3C /* Build configuration list for PBXNativeTarget "AdvCoinApp" */;
+			buildPhases = (
+				A464AECB268DC4DB004C8B3C /* Sources */,
+				A464AECC268DC4DB004C8B3C /* Frameworks */,
+				A464AECD268DC4DB004C8B3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdvCoinApp;
+			productName = AdvCoinApp;
+			productReference = A464AECF268DC4DB004C8B3C /* AdvCoinApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A464AEE4268DC4DC004C8B3C /* AdvCoinAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A464AEFC268DC4DC004C8B3C /* Build configuration list for PBXNativeTarget "AdvCoinAppTests" */;
+			buildPhases = (
+				A464AEE1268DC4DC004C8B3C /* Sources */,
+				A464AEE2268DC4DC004C8B3C /* Frameworks */,
+				A464AEE3268DC4DC004C8B3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A464AEE7268DC4DC004C8B3C /* PBXTargetDependency */,
+			);
+			name = AdvCoinAppTests;
+			productName = AdvCoinAppTests;
+			productReference = A464AEE5268DC4DC004C8B3C /* AdvCoinAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A464AEEF268DC4DC004C8B3C /* AdvCoinAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A464AEFF268DC4DC004C8B3C /* Build configuration list for PBXNativeTarget "AdvCoinAppUITests" */;
+			buildPhases = (
+				A464AEEC268DC4DC004C8B3C /* Sources */,
+				A464AEED268DC4DC004C8B3C /* Frameworks */,
+				A464AEEE268DC4DC004C8B3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A464AEF2268DC4DC004C8B3C /* PBXTargetDependency */,
+			);
+			name = AdvCoinAppUITests;
+			productName = AdvCoinAppUITests;
+			productReference = A464AEF0268DC4DC004C8B3C /* AdvCoinAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A464AEC7268DC4DB004C8B3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					A464AECE268DC4DB004C8B3C = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					A464AEE4268DC4DC004C8B3C = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = A464AECE268DC4DB004C8B3C;
+					};
+					A464AEEF268DC4DC004C8B3C = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = A464AECE268DC4DB004C8B3C;
+					};
+				};
+			};
+			buildConfigurationList = A464AECA268DC4DB004C8B3C /* Build configuration list for PBXProject "AdvCoinApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A464AEC6268DC4DB004C8B3C;
+			productRefGroup = A464AED0268DC4DB004C8B3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A464AECE268DC4DB004C8B3C /* AdvCoinApp */,
+				A464AEE4268DC4DC004C8B3C /* AdvCoinAppTests */,
+				A464AEEF268DC4DC004C8B3C /* AdvCoinAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A464AECD268DC4DB004C8B3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A464AEDF268DC4DC004C8B3C /* LaunchScreen.storyboard in Resources */,
+				A464AEDC268DC4DC004C8B3C /* Assets.xcassets in Resources */,
+				A464AEDA268DC4DB004C8B3C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A464AEE3268DC4DC004C8B3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A464AEEE268DC4DC004C8B3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A464AECB268DC4DB004C8B3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A464AED7268DC4DB004C8B3C /* ViewController.swift in Sources */,
+				A464AED3268DC4DB004C8B3C /* AppDelegate.swift in Sources */,
+				A464AED5268DC4DB004C8B3C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A464AEE1268DC4DC004C8B3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A464AEEA268DC4DC004C8B3C /* AdvCoinAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A464AEEC268DC4DC004C8B3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A464AEF5268DC4DC004C8B3C /* AdvCoinAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A464AEE7268DC4DC004C8B3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A464AECE268DC4DB004C8B3C /* AdvCoinApp */;
+			targetProxy = A464AEE6268DC4DC004C8B3C /* PBXContainerItemProxy */;
+		};
+		A464AEF2268DC4DC004C8B3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A464AECE268DC4DB004C8B3C /* AdvCoinApp */;
+			targetProxy = A464AEF1268DC4DC004C8B3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A464AED8268DC4DB004C8B3C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A464AED9268DC4DB004C8B3C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A464AEDD268DC4DC004C8B3C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A464AEDE268DC4DC004C8B3C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A464AEF7268DC4DC004C8B3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A464AEF8268DC4DC004C8B3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A464AEFA268DC4DC004C8B3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KGL7D9XAQ6;
+				INFOPLIST_FILE = AdvCoinApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AdvCoinApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A464AEFB268DC4DC004C8B3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KGL7D9XAQ6;
+				INFOPLIST_FILE = AdvCoinApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AdvCoinApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A464AEFD268DC4DC004C8B3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KGL7D9XAQ6;
+				INFOPLIST_FILE = AdvCoinAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AdvCoinAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdvCoinApp.app/AdvCoinApp";
+			};
+			name = Debug;
+		};
+		A464AEFE268DC4DC004C8B3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KGL7D9XAQ6;
+				INFOPLIST_FILE = AdvCoinAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AdvCoinAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdvCoinApp.app/AdvCoinApp";
+			};
+			name = Release;
+		};
+		A464AF00268DC4DC004C8B3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KGL7D9XAQ6;
+				INFOPLIST_FILE = AdvCoinAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AdvCoinAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AdvCoinApp;
+			};
+			name = Debug;
+		};
+		A464AF01268DC4DC004C8B3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KGL7D9XAQ6;
+				INFOPLIST_FILE = AdvCoinAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AdvCoinAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AdvCoinApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A464AECA268DC4DB004C8B3C /* Build configuration list for PBXProject "AdvCoinApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A464AEF7268DC4DC004C8B3C /* Debug */,
+				A464AEF8268DC4DC004C8B3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A464AEF9268DC4DC004C8B3C /* Build configuration list for PBXNativeTarget "AdvCoinApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A464AEFA268DC4DC004C8B3C /* Debug */,
+				A464AEFB268DC4DC004C8B3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A464AEFC268DC4DC004C8B3C /* Build configuration list for PBXNativeTarget "AdvCoinAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A464AEFD268DC4DC004C8B3C /* Debug */,
+				A464AEFE268DC4DC004C8B3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A464AEFF268DC4DC004C8B3C /* Build configuration list for PBXNativeTarget "AdvCoinAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A464AF00268DC4DC004C8B3C /* Debug */,
+				A464AF01268DC4DC004C8B3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A464AEC7268DC4DB004C8B3C /* Project object */;
+}
