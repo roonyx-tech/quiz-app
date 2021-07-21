@@ -4,10 +4,38 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>AdvCoinApp.xcscheme_^#shared#^_</key>
+		<key>AdvCoinApp(Development).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>AdvCoinApp(Release).xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>AdvCoinApp(Staging).xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>A464AECE268DC4DB004C8B3C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A464AEE4268DC4DC004C8B3C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A464AEEF268DC4DC004C8B3C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

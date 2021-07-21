@@ -7,14 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A42B1E0426959C030032E94D /* CloseableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42B1E0326959C030032E94D /* CloseableViewController.swift */; };
+		A42B1E0626959C140032E94D /* CoordinatorNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42B1E0526959C140032E94D /* CoordinatorNavigationController.swift */; };
+		A42B1E0826959C1D0032E94D /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42B1E0726959C1D0032E94D /* BaseCoordinator.swift */; };
+		A42B1E0B26959C3A0032E94D /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42B1E0A26959C3A0032E94D /* Coordinator.swift */; };
+		A42B1E0D26959C450032E94D /* Presentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42B1E0C26959C450032E94D /* Presentable.swift */; };
+		A42B1E1026959C5F0032E94D /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42B1E0F26959C5F0032E94D /* Router.swift */; };
+		A42B1E1326959E040032E94D /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42B1E1226959E040032E94D /* AppCoordinator.swift */; };
+		A42B1E162695A0AE0032E94D /* RootContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42B1E152695A0AE0032E94D /* RootContainer.swift */; };
+		A42B1E192695C4CC0032E94D /* ViewHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42B1E182695C4CC0032E94D /* ViewHolder.swift */; };
+		A42B1E202695D3DF0032E94D /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A42B1E1F2695D3DF0032E94D /* Colors.xcassets */; };
+		A42B1E232695D5160032E94D /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42B1E222695D5160032E94D /* Colors.swift */; };
+		A42B1E262695D8170032E94D /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42B1E252695D8170032E94D /* SignInView.swift */; };
+		A42B1E302695DB3D0032E94D /* PhoneNumberTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42B1E2F2695DB3D0032E94D /* PhoneNumberTextField.swift */; };
+		A42B1E332695DC960032E94D /* Veil.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42B1E322695DC960032E94D /* Veil.swift */; };
+		A42B1E362695DF6C0032E94D /* PrimaryTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42B1E352695DF6C0032E94D /* PrimaryTextField.swift */; };
+		A456902926A5850F00877FCF /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A456902826A5850F00877FCF /* PrimaryButton.swift */; };
+		A456902B26A5877600877FCF /* TextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A456902A26A5877600877FCF /* TextButton.swift */; };
 		A464AED3268DC4DB004C8B3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A464AED2268DC4DB004C8B3C /* AppDelegate.swift */; };
-		A464AED5268DC4DB004C8B3C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A464AED4268DC4DB004C8B3C /* SceneDelegate.swift */; };
-		A464AED7268DC4DB004C8B3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A464AED6268DC4DB004C8B3C /* ViewController.swift */; };
-		A464AEDA268DC4DB004C8B3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A464AED8268DC4DB004C8B3C /* Main.storyboard */; };
+		A464AED7268DC4DB004C8B3C /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A464AED6268DC4DB004C8B3C /* SignInViewController.swift */; };
 		A464AEDC268DC4DC004C8B3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A464AEDB268DC4DC004C8B3C /* Assets.xcassets */; };
 		A464AEDF268DC4DC004C8B3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A464AEDD268DC4DC004C8B3C /* LaunchScreen.storyboard */; };
 		A464AEEA268DC4DC004C8B3C /* AdvCoinAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A464AEE9268DC4DC004C8B3C /* AdvCoinAppTests.swift */; };
 		A464AEF5268DC4DC004C8B3C /* AdvCoinAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A464AEF4268DC4DC004C8B3C /* AdvCoinAppUITests.swift */; };
+		A464AF19268DD440004C8B3C /* RequestOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A464AF18268DD440004C8B3C /* RequestOptions.swift */; };
+		A464AF1B268DD44F004C8B3C /* EnviromentProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A464AF1A268DD44F004C8B3C /* EnviromentProtocol.swift */; };
+		A464AF1D268DD45C004C8B3C /* ApiEnviroment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A464AF1C268DD45C004C8B3C /* ApiEnviroment.swift */; };
+		A464AF1F268DD46B004C8B3C /* NetworkSessionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A464AF1E268DD46B004C8B3C /* NetworkSessionProtocol.swift */; };
+		A464AF21268DD47E004C8B3C /* ApiNetworkSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = A464AF20268DD47E004C8B3C /* ApiNetworkSession.swift */; };
+		A464AF23268DD4C4004C8B3C /* OperationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A464AF22268DD4C4004C8B3C /* OperationProtocol.swift */; };
+		A464AF25268DD4DB004C8B3C /* OperationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = A464AF24268DD4DB004C8B3C /* OperationResult.swift */; };
+		A464AF27268DD4EE004C8B3C /* ApiOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A464AF26268DD4EE004C8B3C /* ApiOperation.swift */; };
+		A464AF29268DD508004C8B3C /* RequestProtocol+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A464AF28268DD508004C8B3C /* RequestProtocol+Extension.swift */; };
+		A464AF2B268DD521004C8B3C /* ApiRequestDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = A464AF2A268DD521004C8B3C /* ApiRequestDispatcher.swift */; };
+		A464AF2F268DD694004C8B3C /* Resolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = A464AF2E268DD694004C8B3C /* Resolver.swift */; };
+		A466BDF82696DF0700CB9A40 /* PassWordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A466BDF72696DF0700CB9A40 /* PassWordTextField.swift */; };
+		A4AF622A26946C5C00A792C8 /* AuthTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AF622926946C5C00A792C8 /* AuthTarget.swift */; };
+		A4AF622D26946FBB00A792C8 /* AppEnviroment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AF622C26946FBB00A792C8 /* AppEnviroment.swift */; };
+		A4AF62302694704B00A792C8 /* production(AdvCoinApp).xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = A4AF622F2694704B00A792C8 /* production(AdvCoinApp).xcconfig */; };
+		A4AF62362694708600A792C8 /* preprod(AdvCoinApp).xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = A4AF62352694708100A792C8 /* preprod(AdvCoinApp).xcconfig */; };
+		A4AF62382694709700A792C8 /* development(AdvCoinApp).xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = A4AF62372694709700A792C8 /* development(AdvCoinApp).xcconfig */; };
+		A4E90C1C269EE9A100EC6BC4 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E90C1B269EE9A100EC6BC4 /* SignInViewModel.swift */; };
+		A4E90CB5269EEBFA00EC6BC4 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E90CB4269EEBFA00EC6BC4 /* Observable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +69,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A42B1E0326959C030032E94D /* CloseableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseableViewController.swift; sourceTree = "<group>"; };
+		A42B1E0526959C140032E94D /* CoordinatorNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorNavigationController.swift; sourceTree = "<group>"; };
+		A42B1E0726959C1D0032E94D /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
+		A42B1E0A26959C3A0032E94D /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		A42B1E0C26959C450032E94D /* Presentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presentable.swift; sourceTree = "<group>"; };
+		A42B1E0F26959C5F0032E94D /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		A42B1E1226959E040032E94D /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		A42B1E152695A0AE0032E94D /* RootContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootContainer.swift; sourceTree = "<group>"; };
+		A42B1E182695C4CC0032E94D /* ViewHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewHolder.swift; sourceTree = "<group>"; };
+		A42B1E1F2695D3DF0032E94D /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		A42B1E222695D5160032E94D /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		A42B1E252695D8170032E94D /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		A42B1E2F2695DB3D0032E94D /* PhoneNumberTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberTextField.swift; sourceTree = "<group>"; };
+		A42B1E322695DC960032E94D /* Veil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Veil.swift; sourceTree = "<group>"; };
+		A42B1E352695DF6C0032E94D /* PrimaryTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryTextField.swift; sourceTree = "<group>"; };
+		A456902826A5850F00877FCF /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		A456902A26A5877600877FCF /* TextButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextButton.swift; sourceTree = "<group>"; };
 		A464AECF268DC4DB004C8B3C /* AdvCoinApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdvCoinApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A464AED2268DC4DB004C8B3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A464AED4268DC4DB004C8B3C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A464AED6268DC4DB004C8B3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A464AED9268DC4DB004C8B3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A464AED6268DC4DB004C8B3C /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		A464AEDB268DC4DC004C8B3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A464AEDE268DC4DC004C8B3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A464AEE0268DC4DC004C8B3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +98,25 @@
 		A464AEF0268DC4DC004C8B3C /* AdvCoinAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdvCoinAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A464AEF4268DC4DC004C8B3C /* AdvCoinAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvCoinAppUITests.swift; sourceTree = "<group>"; };
 		A464AEF6268DC4DC004C8B3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A464AF18268DD440004C8B3C /* RequestOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestOptions.swift; sourceTree = "<group>"; };
+		A464AF1A268DD44F004C8B3C /* EnviromentProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnviromentProtocol.swift; sourceTree = "<group>"; };
+		A464AF1C268DD45C004C8B3C /* ApiEnviroment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiEnviroment.swift; sourceTree = "<group>"; };
+		A464AF1E268DD46B004C8B3C /* NetworkSessionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkSessionProtocol.swift; sourceTree = "<group>"; };
+		A464AF20268DD47E004C8B3C /* ApiNetworkSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiNetworkSession.swift; sourceTree = "<group>"; };
+		A464AF22268DD4C4004C8B3C /* OperationProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationProtocol.swift; sourceTree = "<group>"; };
+		A464AF24268DD4DB004C8B3C /* OperationResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationResult.swift; sourceTree = "<group>"; };
+		A464AF26268DD4EE004C8B3C /* ApiOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiOperation.swift; sourceTree = "<group>"; };
+		A464AF28268DD508004C8B3C /* RequestProtocol+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RequestProtocol+Extension.swift"; sourceTree = "<group>"; };
+		A464AF2A268DD521004C8B3C /* ApiRequestDispatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRequestDispatcher.swift; sourceTree = "<group>"; };
+		A464AF2E268DD694004C8B3C /* Resolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resolver.swift; sourceTree = "<group>"; };
+		A466BDF72696DF0700CB9A40 /* PassWordTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassWordTextField.swift; sourceTree = "<group>"; };
+		A4AF622926946C5C00A792C8 /* AuthTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthTarget.swift; sourceTree = "<group>"; };
+		A4AF622C26946FBB00A792C8 /* AppEnviroment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnviroment.swift; sourceTree = "<group>"; };
+		A4AF622F2694704B00A792C8 /* production(AdvCoinApp).xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "production(AdvCoinApp).xcconfig"; sourceTree = "<group>"; };
+		A4AF62352694708100A792C8 /* preprod(AdvCoinApp).xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "preprod(AdvCoinApp).xcconfig"; sourceTree = "<group>"; };
+		A4AF62372694709700A792C8 /* development(AdvCoinApp).xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "development(AdvCoinApp).xcconfig"; sourceTree = "<group>"; };
+		A4E90C1B269EE9A100EC6BC4 /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
+		A4E90CB4269EEBFA00EC6BC4 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,13 +144,187 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A42B1E0126959BF00032E94D /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				A42B1E0E26959C560032E94D /* Router */,
+				A42B1E0926959C290032E94D /* Entitles */,
+				A42B1E0226959BFA0032E94D /* Base */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		A42B1E0226959BFA0032E94D /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A42B1E0326959C030032E94D /* CloseableViewController.swift */,
+				A42B1E0526959C140032E94D /* CoordinatorNavigationController.swift */,
+				A42B1E0726959C1D0032E94D /* BaseCoordinator.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		A42B1E0926959C290032E94D /* Entitles */ = {
+			isa = PBXGroup;
+			children = (
+				A42B1E0A26959C3A0032E94D /* Coordinator.swift */,
+				A42B1E0C26959C450032E94D /* Presentable.swift */,
+			);
+			path = Entitles;
+			sourceTree = "<group>";
+		};
+		A42B1E0E26959C560032E94D /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				A42B1E0F26959C5F0032E94D /* Router.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		A42B1E1126959DF90032E94D /* AppCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				A42B1E1226959E040032E94D /* AppCoordinator.swift */,
+			);
+			path = AppCoordinator;
+			sourceTree = "<group>";
+		};
+		A42B1E142695A09A0032E94D /* RootContainer */ = {
+			isa = PBXGroup;
+			children = (
+				A42B1E152695A0AE0032E94D /* RootContainer.swift */,
+			);
+			path = RootContainer;
+			sourceTree = "<group>";
+		};
+		A42B1E172695C4B10032E94D /* ViewHolder */ = {
+			isa = PBXGroup;
+			children = (
+				A42B1E182695C4CC0032E94D /* ViewHolder.swift */,
+			);
+			path = ViewHolder;
+			sourceTree = "<group>";
+		};
+		A42B1E1D2695D3AF0032E94D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A464AED6268DC4DB004C8B3C /* SignInViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A42B1E1E2695D3BC0032E94D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A464AEDB268DC4DC004C8B3C /* Assets.xcassets */,
+				A42B1E1F2695D3DF0032E94D /* Colors.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A42B1E212695D5090032E94D /* UIResources */ = {
+			isa = PBXGroup;
+			children = (
+				A42B1E222695D5160032E94D /* Colors.swift */,
+			);
+			path = UIResources;
+			sourceTree = "<group>";
+		};
+		A42B1E242695D80E0032E94D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A42B1E252695D8170032E94D /* SignInView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A42B1E272695D96F0032E94D /* ViewCore */ = {
+			isa = PBXGroup;
+			children = (
+				A466BDF92696DF6800CB9A40 /* Button */,
+				A42B1E282695D9A20032E94D /* TextFields */,
+			);
+			path = ViewCore;
+			sourceTree = "<group>";
+		};
+		A42B1E282695D9A20032E94D /* TextFields */ = {
+			isa = PBXGroup;
+			children = (
+				A466BDF62696DEF100CB9A40 /* PasswordTextField */,
+				A42B1E2E2695DB2C0032E94D /* PhoneNumberTextField */,
+				A42B1E342695DF590032E94D /* PrimaryTextField */,
+				A42B1E312695DC860032E94D /* Veil */,
+			);
+			path = TextFields;
+			sourceTree = "<group>";
+		};
+		A42B1E2E2695DB2C0032E94D /* PhoneNumberTextField */ = {
+			isa = PBXGroup;
+			children = (
+				A42B1E2F2695DB3D0032E94D /* PhoneNumberTextField.swift */,
+			);
+			path = PhoneNumberTextField;
+			sourceTree = "<group>";
+		};
+		A42B1E312695DC860032E94D /* Veil */ = {
+			isa = PBXGroup;
+			children = (
+				A42B1E322695DC960032E94D /* Veil.swift */,
+			);
+			path = Veil;
+			sourceTree = "<group>";
+		};
+		A42B1E342695DF590032E94D /* PrimaryTextField */ = {
+			isa = PBXGroup;
+			children = (
+				A42B1E352695DF6C0032E94D /* PrimaryTextField.swift */,
+			);
+			path = PrimaryTextField;
+			sourceTree = "<group>";
+		};
+		A456902C26A5893100877FCF /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				A456902F26A5895C00877FCF /* View */,
+				A456902E26A5895600877FCF /* ViewModel */,
+				A456902D26A5895100877FCF /* Controller */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		A456902D26A5895100877FCF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A456902E26A5895600877FCF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A456902F26A5895C00877FCF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		A464AEC6268DC4DB004C8B3C = {
 			isa = PBXGroup;
 			children = (
 				A464AED1268DC4DB004C8B3C /* AdvCoinApp */,
 				A464AEE8268DC4DC004C8B3C /* AdvCoinAppTests */,
 				A464AEF3268DC4DC004C8B3C /* AdvCoinAppUITests */,
+				A4AF622E2694701800A792C8 /* Configs */,
+				A464AF02268DC750004C8B3C /* Core */,
 				A464AED0268DC4DB004C8B3C /* Products */,
+				A42B1E1E2695D3BC0032E94D /* Resources */,
+				A42B1E212695D5090032E94D /* UIResources */,
+				A42B1E272695D96F0032E94D /* ViewCore */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,11 +341,9 @@
 		A464AED1268DC4DB004C8B3C /* AdvCoinApp */ = {
 			isa = PBXGroup;
 			children = (
+				A42B1E1126959DF90032E94D /* AppCoordinator */,
+				A4AF622526946C3A00A792C8 /* AuthFlow */,
 				A464AED2268DC4DB004C8B3C /* AppDelegate.swift */,
-				A464AED4268DC4DB004C8B3C /* SceneDelegate.swift */,
-				A464AED6268DC4DB004C8B3C /* ViewController.swift */,
-				A464AED8268DC4DB004C8B3C /* Main.storyboard */,
-				A464AEDB268DC4DC004C8B3C /* Assets.xcassets */,
 				A464AEDD268DC4DC004C8B3C /* LaunchScreen.storyboard */,
 				A464AEE0268DC4DC004C8B3C /* Info.plist */,
 			);
@@ -126,6 +366,132 @@
 				A464AEF6268DC4DC004C8B3C /* Info.plist */,
 			);
 			path = AdvCoinAppUITests;
+			sourceTree = "<group>";
+		};
+		A464AF02268DC750004C8B3C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A4E90CB3269EEBEF00EC6BC4 /* Observable */,
+				A42B1E172695C4B10032E94D /* ViewHolder */,
+				A42B1E0126959BF00032E94D /* Coordinator */,
+				A4AF622B26946F8F00A792C8 /* AppEnviroment */,
+				A464AF2C268DD58D004C8B3C /* DI */,
+				A464AF03268DC755004C8B3C /* Networking */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		A464AF03268DC755004C8B3C /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				A464AF18268DD440004C8B3C /* RequestOptions.swift */,
+				A464AF1A268DD44F004C8B3C /* EnviromentProtocol.swift */,
+				A464AF1C268DD45C004C8B3C /* ApiEnviroment.swift */,
+				A464AF1E268DD46B004C8B3C /* NetworkSessionProtocol.swift */,
+				A464AF20268DD47E004C8B3C /* ApiNetworkSession.swift */,
+				A464AF22268DD4C4004C8B3C /* OperationProtocol.swift */,
+				A464AF24268DD4DB004C8B3C /* OperationResult.swift */,
+				A464AF26268DD4EE004C8B3C /* ApiOperation.swift */,
+				A464AF2A268DD521004C8B3C /* ApiRequestDispatcher.swift */,
+				A464AF28268DD508004C8B3C /* RequestProtocol+Extension.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		A464AF2C268DD58D004C8B3C /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				A42B1E142695A09A0032E94D /* RootContainer */,
+				A464AF2D268DD68C004C8B3C /* Resolver */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		A464AF2D268DD68C004C8B3C /* Resolver */ = {
+			isa = PBXGroup;
+			children = (
+				A464AF2E268DD694004C8B3C /* Resolver.swift */,
+			);
+			path = Resolver;
+			sourceTree = "<group>";
+		};
+		A466BDF62696DEF100CB9A40 /* PasswordTextField */ = {
+			isa = PBXGroup;
+			children = (
+				A466BDF72696DF0700CB9A40 /* PassWordTextField.swift */,
+			);
+			path = PasswordTextField;
+			sourceTree = "<group>";
+		};
+		A466BDF92696DF6800CB9A40 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				A456902826A5850F00877FCF /* PrimaryButton.swift */,
+				A456902A26A5877600877FCF /* TextButton.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		A4AF622526946C3A00A792C8 /* AuthFlow */ = {
+			isa = PBXGroup;
+			children = (
+				A4AF622826946C5000A792C8 /* AuthTarget */,
+				A4AF622626946C4000A792C8 /* SignIn */,
+				A456902C26A5893100877FCF /* SignUp */,
+			);
+			path = AuthFlow;
+			sourceTree = "<group>";
+		};
+		A4AF622626946C4000A792C8 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				A4E90C1A269EE98E00EC6BC4 /* ViewModel */,
+				A42B1E242695D80E0032E94D /* View */,
+				A42B1E1D2695D3AF0032E94D /* Controller */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		A4AF622826946C5000A792C8 /* AuthTarget */ = {
+			isa = PBXGroup;
+			children = (
+				A4AF622926946C5C00A792C8 /* AuthTarget.swift */,
+			);
+			path = AuthTarget;
+			sourceTree = "<group>";
+		};
+		A4AF622B26946F8F00A792C8 /* AppEnviroment */ = {
+			isa = PBXGroup;
+			children = (
+				A4AF622C26946FBB00A792C8 /* AppEnviroment.swift */,
+			);
+			path = AppEnviroment;
+			sourceTree = "<group>";
+		};
+		A4AF622E2694701800A792C8 /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				A4AF622F2694704B00A792C8 /* production(AdvCoinApp).xcconfig */,
+				A4AF62352694708100A792C8 /* preprod(AdvCoinApp).xcconfig */,
+				A4AF62372694709700A792C8 /* development(AdvCoinApp).xcconfig */,
+			);
+			path = Configs;
+			sourceTree = "<group>";
+		};
+		A4E90C1A269EE98E00EC6BC4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A4E90C1B269EE9A100EC6BC4 /* SignInViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A4E90CB3269EEBEF00EC6BC4 /* Observable */ = {
+			isa = PBXGroup;
+			children = (
+				A4E90CB4269EEBFA00EC6BC4 /* Observable.swift */,
+			);
+			path = Observable;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +597,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4AF62302694704B00A792C8 /* production(AdvCoinApp).xcconfig in Resources */,
+				A4AF62362694708600A792C8 /* preprod(AdvCoinApp).xcconfig in Resources */,
 				A464AEDF268DC4DC004C8B3C /* LaunchScreen.storyboard in Resources */,
+				A42B1E202695D3DF0032E94D /* Colors.xcassets in Resources */,
 				A464AEDC268DC4DC004C8B3C /* Assets.xcassets in Resources */,
-				A464AEDA268DC4DB004C8B3C /* Main.storyboard in Resources */,
+				A4AF62382694709700A792C8 /* development(AdvCoinApp).xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +627,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A464AED7268DC4DB004C8B3C /* ViewController.swift in Sources */,
+				A4E90C1C269EE9A100EC6BC4 /* SignInViewModel.swift in Sources */,
+				A42B1E1326959E040032E94D /* AppCoordinator.swift in Sources */,
+				A456902B26A5877600877FCF /* TextButton.swift in Sources */,
+				A464AF21268DD47E004C8B3C /* ApiNetworkSession.swift in Sources */,
+				A42B1E0826959C1D0032E94D /* BaseCoordinator.swift in Sources */,
+				A42B1E0426959C030032E94D /* CloseableViewController.swift in Sources */,
+				A464AF1B268DD44F004C8B3C /* EnviromentProtocol.swift in Sources */,
+				A464AF1D268DD45C004C8B3C /* ApiEnviroment.swift in Sources */,
+				A42B1E232695D5160032E94D /* Colors.swift in Sources */,
+				A42B1E162695A0AE0032E94D /* RootContainer.swift in Sources */,
+				A464AF2B268DD521004C8B3C /* ApiRequestDispatcher.swift in Sources */,
+				A42B1E332695DC960032E94D /* Veil.swift in Sources */,
+				A42B1E0B26959C3A0032E94D /* Coordinator.swift in Sources */,
+				A456902926A5850F00877FCF /* PrimaryButton.swift in Sources */,
+				A4AF622D26946FBB00A792C8 /* AppEnviroment.swift in Sources */,
+				A42B1E302695DB3D0032E94D /* PhoneNumberTextField.swift in Sources */,
+				A464AED7268DC4DB004C8B3C /* SignInViewController.swift in Sources */,
+				A42B1E262695D8170032E94D /* SignInView.swift in Sources */,
+				A4E90CB5269EEBFA00EC6BC4 /* Observable.swift in Sources */,
+				A42B1E0626959C140032E94D /* CoordinatorNavigationController.swift in Sources */,
+				A42B1E1026959C5F0032E94D /* Router.swift in Sources */,
+				A42B1E362695DF6C0032E94D /* PrimaryTextField.swift in Sources */,
 				A464AED3268DC4DB004C8B3C /* AppDelegate.swift in Sources */,
-				A464AED5268DC4DB004C8B3C /* SceneDelegate.swift in Sources */,
+				A4AF622A26946C5C00A792C8 /* AuthTarget.swift in Sources */,
+				A464AF23268DD4C4004C8B3C /* OperationProtocol.swift in Sources */,
+				A42B1E0D26959C450032E94D /* Presentable.swift in Sources */,
+				A464AF19268DD440004C8B3C /* RequestOptions.swift in Sources */,
+				A464AF25268DD4DB004C8B3C /* OperationResult.swift in Sources */,
+				A466BDF82696DF0700CB9A40 /* PassWordTextField.swift in Sources */,
+				A464AF2F268DD694004C8B3C /* Resolver.swift in Sources */,
+				A42B1E192695C4CC0032E94D /* ViewHolder.swift in Sources */,
+				A464AF27268DD4EE004C8B3C /* ApiOperation.swift in Sources */,
+				A464AF1F268DD46B004C8B3C /* NetworkSessionProtocol.swift in Sources */,
+				A464AF29268DD508004C8B3C /* RequestProtocol+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +696,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A464AED8268DC4DB004C8B3C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A464AED9268DC4DB004C8B3C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A464AEDD268DC4DC004C8B3C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -315,69 +707,9 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		A464AEF7268DC4DC004C8B3C /* Debug */ = {
+		A455C14A26949C8B004FE56B /* Stagind(AdvCoin) */ = {
 			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-			};
-			name = Debug;
-		};
-		A464AEF8268DC4DC004C8B3C /* Release */ = {
-			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4AF62352694708100A792C8 /* preprod(AdvCoinApp).xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -421,7 +753,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -429,48 +761,35 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = "Stagind(AdvCoin)";
 		};
-		A464AEFA268DC4DC004C8B3C /* Debug */ = {
+		A455C14B26949C8B004FE56B /* Stagind(AdvCoin) */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4AF62352694708100A792C8 /* preprod(AdvCoinApp).xcconfig */;
 			buildSettings = {
+				APP_NAME = "";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BASE_URL = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KGL7D9XAQ6;
 				INFOPLIST_FILE = AdvCoinApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.AdvCoinApp;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AdvCoinApp.Staging;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
-			name = Debug;
+			name = "Stagind(AdvCoin)";
 		};
-		A464AEFB268DC4DC004C8B3C /* Release */ = {
+		A455C14C26949C8B004FE56B /* Stagind(AdvCoin) */ = {
 			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = KGL7D9XAQ6;
-				INFOPLIST_FILE = AdvCoinApp/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.AdvCoinApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		A464AEFD268DC4DC004C8B3C /* Debug */ = {
-			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4AF62352694708100A792C8 /* preprod(AdvCoinApp).xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -489,10 +808,112 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdvCoinApp.app/AdvCoinApp";
 			};
-			name = Debug;
+			name = "Stagind(AdvCoin)";
 		};
-		A464AEFE268DC4DC004C8B3C /* Release */ = {
+		A455C14D26949C8B004FE56B /* Stagind(AdvCoin) */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4AF62352694708100A792C8 /* preprod(AdvCoinApp).xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KGL7D9XAQ6;
+				INFOPLIST_FILE = AdvCoinAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AdvCoinAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AdvCoinApp;
+			};
+			name = "Stagind(AdvCoin)";
+		};
+		A455C14E26949C92004FE56B /* Development(AdvCoin) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4AF62372694709700A792C8 /* development(AdvCoinApp).xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Development(AdvCoin)";
+		};
+		A455C14F26949C92004FE56B /* Development(AdvCoin) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4AF62372694709700A792C8 /* development(AdvCoinApp).xcconfig */;
+			buildSettings = {
+				APP_NAME = "";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BASE_URL = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KGL7D9XAQ6;
+				INFOPLIST_FILE = AdvCoinApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AdvCoinApp.Dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = "Development(AdvCoin)";
+		};
+		A455C15026949C92004FE56B /* Development(AdvCoin) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4AF62372694709700A792C8 /* development(AdvCoinApp).xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,10 +932,11 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdvCoinApp.app/AdvCoinApp";
 			};
-			name = Release;
+			name = "Development(AdvCoin)";
 		};
-		A464AF00268DC4DC004C8B3C /* Debug */ = {
+		A455C15126949C92004FE56B /* Development(AdvCoin) */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4AF62372694709700A792C8 /* development(AdvCoinApp).xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -531,10 +953,113 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = AdvCoinApp;
 			};
-			name = Debug;
+			name = "Development(AdvCoin)";
 		};
-		A464AF01268DC4DC004C8B3C /* Release */ = {
+		A464AEF8268DC4DC004C8B3C /* Release(AdvCoin) */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4AF622F2694704B00A792C8 /* production(AdvCoinApp).xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release(AdvCoin)";
+		};
+		A464AEFB268DC4DC004C8B3C /* Release(AdvCoin) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4AF622F2694704B00A792C8 /* production(AdvCoinApp).xcconfig */;
+			buildSettings = {
+				APP_NAME = "";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BASE_URL = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KGL7D9XAQ6;
+				INFOPLIST_FILE = AdvCoinApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AdvCoinApp.Release;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = "Release(AdvCoin)";
+		};
+		A464AEFE268DC4DC004C8B3C /* Release(AdvCoin) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4AF622F2694704B00A792C8 /* production(AdvCoinApp).xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KGL7D9XAQ6;
+				INFOPLIST_FILE = AdvCoinAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AdvCoinAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdvCoinApp.app/AdvCoinApp";
+			};
+			name = "Release(AdvCoin)";
+		};
+		A464AF01268DC4DC004C8B3C /* Release(AdvCoin) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4AF622F2694704B00A792C8 /* production(AdvCoinApp).xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -551,7 +1076,7 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = AdvCoinApp;
 			};
-			name = Release;
+			name = "Release(AdvCoin)";
 		};
 /* End XCBuildConfiguration section */
 
@@ -559,38 +1084,42 @@
 		A464AECA268DC4DB004C8B3C /* Build configuration list for PBXProject "AdvCoinApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A464AEF7268DC4DC004C8B3C /* Debug */,
-				A464AEF8268DC4DC004C8B3C /* Release */,
+				A464AEF8268DC4DC004C8B3C /* Release(AdvCoin) */,
+				A455C14E26949C92004FE56B /* Development(AdvCoin) */,
+				A455C14A26949C8B004FE56B /* Stagind(AdvCoin) */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = "Release(AdvCoin)";
 		};
 		A464AEF9268DC4DC004C8B3C /* Build configuration list for PBXNativeTarget "AdvCoinApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A464AEFA268DC4DC004C8B3C /* Debug */,
-				A464AEFB268DC4DC004C8B3C /* Release */,
+				A464AEFB268DC4DC004C8B3C /* Release(AdvCoin) */,
+				A455C14F26949C92004FE56B /* Development(AdvCoin) */,
+				A455C14B26949C8B004FE56B /* Stagind(AdvCoin) */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = "Release(AdvCoin)";
 		};
 		A464AEFC268DC4DC004C8B3C /* Build configuration list for PBXNativeTarget "AdvCoinAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A464AEFD268DC4DC004C8B3C /* Debug */,
-				A464AEFE268DC4DC004C8B3C /* Release */,
+				A464AEFE268DC4DC004C8B3C /* Release(AdvCoin) */,
+				A455C15026949C92004FE56B /* Development(AdvCoin) */,
+				A455C14C26949C8B004FE56B /* Stagind(AdvCoin) */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = "Release(AdvCoin)";
 		};
 		A464AEFF268DC4DC004C8B3C /* Build configuration list for PBXNativeTarget "AdvCoinAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A464AF00268DC4DC004C8B3C /* Debug */,
-				A464AF01268DC4DC004C8B3C /* Release */,
+				A464AF01268DC4DC004C8B3C /* Release(AdvCoin) */,
+				A455C15126949C92004FE56B /* Development(AdvCoin) */,
+				A455C14D26949C8B004FE56B /* Stagind(AdvCoin) */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = "Release(AdvCoin)";
 		};
 /* End XCConfigurationList section */
 	};

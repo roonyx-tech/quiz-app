@@ -1,0 +1,3 @@
+BASE_URL = https:/$()/java.pillikan.org.kz/api
+APP_NAME = EarnApp(PreProd)
+CLOUD_ID = pk_cb083b24ecd6a35bb5c171c912a47
