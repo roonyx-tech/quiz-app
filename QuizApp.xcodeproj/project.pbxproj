@@ -86,16 +86,16 @@
 		A42B1E352695DF6C0032E94D /* PrimaryTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryTextField.swift; sourceTree = "<group>"; };
 		A456902826A5850F00877FCF /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
 		A456902A26A5877600877FCF /* TextButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextButton.swift; sourceTree = "<group>"; };
-		A464AECF268DC4DB004C8B3C /* AdvCoinApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdvCoinApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A464AECF268DC4DB004C8B3C /* QuizApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuizApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A464AED2268DC4DB004C8B3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A464AED6268DC4DB004C8B3C /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		A464AEDB268DC4DC004C8B3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A464AEDE268DC4DC004C8B3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A464AEE0268DC4DC004C8B3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A464AEE5268DC4DC004C8B3C /* AdvCoinAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdvCoinAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A464AEE5268DC4DC004C8B3C /* QuizAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A464AEE9268DC4DC004C8B3C /* AdvCoinAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvCoinAppTests.swift; sourceTree = "<group>"; };
 		A464AEEB268DC4DC004C8B3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A464AEF0268DC4DC004C8B3C /* AdvCoinAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdvCoinAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A464AEF0268DC4DC004C8B3C /* QuizAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A464AEF4268DC4DC004C8B3C /* AdvCoinAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvCoinAppUITests.swift; sourceTree = "<group>"; };
 		A464AEF6268DC4DC004C8B3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A464AF18268DD440004C8B3C /* RequestOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestOptions.swift; sourceTree = "<group>"; };
@@ -316,9 +316,9 @@
 		A464AEC6268DC4DB004C8B3C = {
 			isa = PBXGroup;
 			children = (
-				A464AED1268DC4DB004C8B3C /* AdvCoinApp */,
-				A464AEE8268DC4DC004C8B3C /* AdvCoinAppTests */,
-				A464AEF3268DC4DC004C8B3C /* AdvCoinAppUITests */,
+				A464AED1268DC4DB004C8B3C /* QuizApp */,
+				A464AEE8268DC4DC004C8B3C /* QuizAppTests */,
+				A464AEF3268DC4DC004C8B3C /* QuizAppUITests */,
 				A4AF622E2694701800A792C8 /* Configs */,
 				A464AF02268DC750004C8B3C /* Core */,
 				A464AED0268DC4DB004C8B3C /* Products */,
@@ -331,14 +331,14 @@
 		A464AED0268DC4DB004C8B3C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A464AECF268DC4DB004C8B3C /* AdvCoinApp.app */,
-				A464AEE5268DC4DC004C8B3C /* AdvCoinAppTests.xctest */,
-				A464AEF0268DC4DC004C8B3C /* AdvCoinAppUITests.xctest */,
+				A464AECF268DC4DB004C8B3C /* QuizApp.app */,
+				A464AEE5268DC4DC004C8B3C /* QuizAppTests.xctest */,
+				A464AEF0268DC4DC004C8B3C /* QuizAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A464AED1268DC4DB004C8B3C /* AdvCoinApp */ = {
+		A464AED1268DC4DB004C8B3C /* QuizApp */ = {
 			isa = PBXGroup;
 			children = (
 				A42B1E1126959DF90032E94D /* AppCoordinator */,
@@ -347,25 +347,25 @@
 				A464AEDD268DC4DC004C8B3C /* LaunchScreen.storyboard */,
 				A464AEE0268DC4DC004C8B3C /* Info.plist */,
 			);
-			path = AdvCoinApp;
+			path = QuizApp;
 			sourceTree = "<group>";
 		};
-		A464AEE8268DC4DC004C8B3C /* AdvCoinAppTests */ = {
+		A464AEE8268DC4DC004C8B3C /* QuizAppTests */ = {
 			isa = PBXGroup;
 			children = (
 				A464AEE9268DC4DC004C8B3C /* AdvCoinAppTests.swift */,
 				A464AEEB268DC4DC004C8B3C /* Info.plist */,
 			);
-			path = AdvCoinAppTests;
+			path = QuizAppTests;
 			sourceTree = "<group>";
 		};
-		A464AEF3268DC4DC004C8B3C /* AdvCoinAppUITests */ = {
+		A464AEF3268DC4DC004C8B3C /* QuizAppUITests */ = {
 			isa = PBXGroup;
 			children = (
 				A464AEF4268DC4DC004C8B3C /* AdvCoinAppUITests.swift */,
 				A464AEF6268DC4DC004C8B3C /* Info.plist */,
 			);
-			path = AdvCoinAppUITests;
+			path = QuizAppUITests;
 			sourceTree = "<group>";
 		};
 		A464AF02268DC750004C8B3C /* Core */ = {
@@ -497,9 +497,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A464AECE268DC4DB004C8B3C /* AdvCoinApp */ = {
+		A464AECE268DC4DB004C8B3C /* QuizApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A464AEF9268DC4DC004C8B3C /* Build configuration list for PBXNativeTarget "AdvCoinApp" */;
+			buildConfigurationList = A464AEF9268DC4DC004C8B3C /* Build configuration list for PBXNativeTarget "QuizApp" */;
 			buildPhases = (
 				A464AECB268DC4DB004C8B3C /* Sources */,
 				A464AECC268DC4DB004C8B3C /* Frameworks */,
@@ -509,14 +509,14 @@
 			);
 			dependencies = (
 			);
-			name = AdvCoinApp;
+			name = QuizApp;
 			productName = AdvCoinApp;
-			productReference = A464AECF268DC4DB004C8B3C /* AdvCoinApp.app */;
+			productReference = A464AECF268DC4DB004C8B3C /* QuizApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A464AEE4268DC4DC004C8B3C /* AdvCoinAppTests */ = {
+		A464AEE4268DC4DC004C8B3C /* QuizAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A464AEFC268DC4DC004C8B3C /* Build configuration list for PBXNativeTarget "AdvCoinAppTests" */;
+			buildConfigurationList = A464AEFC268DC4DC004C8B3C /* Build configuration list for PBXNativeTarget "QuizAppTests" */;
 			buildPhases = (
 				A464AEE1268DC4DC004C8B3C /* Sources */,
 				A464AEE2268DC4DC004C8B3C /* Frameworks */,
@@ -527,14 +527,14 @@
 			dependencies = (
 				A464AEE7268DC4DC004C8B3C /* PBXTargetDependency */,
 			);
-			name = AdvCoinAppTests;
+			name = QuizAppTests;
 			productName = AdvCoinAppTests;
-			productReference = A464AEE5268DC4DC004C8B3C /* AdvCoinAppTests.xctest */;
+			productReference = A464AEE5268DC4DC004C8B3C /* QuizAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A464AEEF268DC4DC004C8B3C /* AdvCoinAppUITests */ = {
+		A464AEEF268DC4DC004C8B3C /* QuizAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A464AEFF268DC4DC004C8B3C /* Build configuration list for PBXNativeTarget "AdvCoinAppUITests" */;
+			buildConfigurationList = A464AEFF268DC4DC004C8B3C /* Build configuration list for PBXNativeTarget "QuizAppUITests" */;
 			buildPhases = (
 				A464AEEC268DC4DC004C8B3C /* Sources */,
 				A464AEED268DC4DC004C8B3C /* Frameworks */,
@@ -545,9 +545,9 @@
 			dependencies = (
 				A464AEF2268DC4DC004C8B3C /* PBXTargetDependency */,
 			);
-			name = AdvCoinAppUITests;
+			name = QuizAppUITests;
 			productName = AdvCoinAppUITests;
-			productReference = A464AEF0268DC4DC004C8B3C /* AdvCoinAppUITests.xctest */;
+			productReference = A464AEF0268DC4DC004C8B3C /* QuizAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -572,7 +572,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A464AECA268DC4DB004C8B3C /* Build configuration list for PBXProject "AdvCoinApp" */;
+			buildConfigurationList = A464AECA268DC4DB004C8B3C /* Build configuration list for PBXProject "QuizApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -585,9 +585,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A464AECE268DC4DB004C8B3C /* AdvCoinApp */,
-				A464AEE4268DC4DC004C8B3C /* AdvCoinAppTests */,
-				A464AEEF268DC4DC004C8B3C /* AdvCoinAppUITests */,
+				A464AECE268DC4DB004C8B3C /* QuizApp */,
+				A464AEE4268DC4DC004C8B3C /* QuizAppTests */,
+				A464AEEF268DC4DC004C8B3C /* QuizAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -685,12 +685,12 @@
 /* Begin PBXTargetDependency section */
 		A464AEE7268DC4DC004C8B3C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A464AECE268DC4DB004C8B3C /* AdvCoinApp */;
+			target = A464AECE268DC4DB004C8B3C /* QuizApp */;
 			targetProxy = A464AEE6268DC4DC004C8B3C /* PBXContainerItemProxy */;
 		};
 		A464AEF2268DC4DC004C8B3C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A464AECE268DC4DB004C8B3C /* AdvCoinApp */;
+			target = A464AECE268DC4DB004C8B3C /* QuizApp */;
 			targetProxy = A464AEF1268DC4DC004C8B3C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -806,7 +806,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdvCoinApp.app/AdvCoinApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuizApp.app/QuizApp";
 			};
 			name = "Stagind(AdvCoin)";
 		};
@@ -930,7 +930,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdvCoinApp.app/AdvCoinApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuizApp.app/QuizApp";
 			};
 			name = "Development(AdvCoin)";
 		};
@@ -1053,7 +1053,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdvCoinApp.app/AdvCoinApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuizApp.app/QuizApp";
 			};
 			name = "Release(AdvCoin)";
 		};
@@ -1081,7 +1081,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A464AECA268DC4DB004C8B3C /* Build configuration list for PBXProject "AdvCoinApp" */ = {
+		A464AECA268DC4DB004C8B3C /* Build configuration list for PBXProject "QuizApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A464AEF8268DC4DC004C8B3C /* Release(AdvCoin) */,
@@ -1091,7 +1091,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = "Release(AdvCoin)";
 		};
-		A464AEF9268DC4DC004C8B3C /* Build configuration list for PBXNativeTarget "AdvCoinApp" */ = {
+		A464AEF9268DC4DC004C8B3C /* Build configuration list for PBXNativeTarget "QuizApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A464AEFB268DC4DC004C8B3C /* Release(AdvCoin) */,
@@ -1101,7 +1101,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = "Release(AdvCoin)";
 		};
-		A464AEFC268DC4DC004C8B3C /* Build configuration list for PBXNativeTarget "AdvCoinAppTests" */ = {
+		A464AEFC268DC4DC004C8B3C /* Build configuration list for PBXNativeTarget "QuizAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A464AEFE268DC4DC004C8B3C /* Release(AdvCoin) */,
@@ -1111,7 +1111,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = "Release(AdvCoin)";
 		};
-		A464AEFF268DC4DC004C8B3C /* Build configuration list for PBXNativeTarget "AdvCoinAppUITests" */ = {
+		A464AEFF268DC4DC004C8B3C /* Build configuration list for PBXNativeTarget "QuizAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A464AF01268DC4DC004C8B3C /* Release(AdvCoin) */,

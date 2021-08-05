@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A464AECE268DC4DB004C8B3C"
-               BuildableName = "AdvCoinApp.app"
-               BlueprintName = "AdvCoinApp"
-               ReferencedContainer = "container:AdvCoinApp.xcodeproj">
+               BuildableName = "QuizApp.app"
+               BlueprintName = "QuizApp"
+               ReferencedContainer = "container:QuizApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A464AECE268DC4DB004C8B3C"
-            BuildableName = "AdvCoinApp.app"
-            BlueprintName = "AdvCoinApp"
-            ReferencedContainer = "container:AdvCoinApp.xcodeproj">
+            BuildableName = "QuizApp.app"
+            BlueprintName = "QuizApp"
+            ReferencedContainer = "container:QuizApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A464AECE268DC4DB004C8B3C"
-            BuildableName = "AdvCoinApp.app"
-            BlueprintName = "AdvCoinApp"
-            ReferencedContainer = "container:AdvCoinApp.xcodeproj">
+            BuildableName = "QuizApp.app"
+            BlueprintName = "QuizApp"
+            ReferencedContainer = "container:QuizApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
