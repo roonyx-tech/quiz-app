@@ -154,4 +154,4 @@ public extension ViewHolder where Self: UIViewController {
 ```
 
 ## License
-[MIT](https://github.com/roonyx-tech/Healios/blob/main/LICENSE)
+[MIT](https://github.com/roonyx-tech/quiz-app/blob/main/LICENSE)
