@@ -1,9 +1,9 @@
-# Healios
-This project use Architecture Redux, Which contains Store to observe Input and Output files
-
-
-All business case writed clean swift , without any Dependency
-
+# QuizApp
+All business case writed on clean swift , without any side Dependencies, App has single view to demonstrate usage. 
+The Architure of this project is Redux 
+Navigation realized by Coordinator pattern 
+View layouting maded by NSLayoutConstraints 
+Depenncy Inversion realized by Resolver 
 ## Usage
 
 ## Network Layer 
@@ -102,21 +102,10 @@ final class AppCoordinator: BaseCoordinator {
     }
     
     override func start() {
-        var module = makeHome()
-        module.onElementTapped = { [weak self] postInfo in
-            self?.router.push(self?.makeDetail(postInfo: postInfo))
-        }
+        let module = SignInViewControllerBuilder.build()
         router.setRootModule(module)
     }
     
-    func makeHome() -> HomeModule {
-        return ViewController()
-    }
-    
-    func makeDetail(postInfo: PostInfo) -> DetailModule {
-        return DetailViewController(postInfo: postInfo)
-    }
-}
 ```
 ## Views and Constraints 
 Views created by autolayout without using of constructors
